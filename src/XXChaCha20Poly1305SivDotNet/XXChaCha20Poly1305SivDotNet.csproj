@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <Version>1.0.0</Version>
+        <Authors>Samuel Lucas</Authors>
+        <Description>A key-committing, misuse-resistant AEAD scheme based on ChaCha20-Poly1305-PSIV and Daence.</Description>
+        <Copyright>Copyright (c) 2025 Samuel Lucas</Copyright>
+        <PackageProjectUrl>https://github.com/samuel-lucas6/xxchacha20-poly1305-siv</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/samuel-lucas6/xxchacha20-poly1305-siv</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>hchacha20 poly1305 chacha20 xchacha20 xxchacha20 chacha20-poly1305 xchacha20-poly1305 chacha20-poly1305-psiv daence siv key-commitment key-committing misuse-resistant misuse-resistance aead</PackageTags>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Geralt" Version="3.3.0" />
+    </ItemGroup>
+
+</Project>
